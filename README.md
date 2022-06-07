@@ -1,5 +1,10 @@
   # Hint-based-Image-Colorization-Using-MSAU-Net   
-2022-1, Gachon University, Department of Software, Computer Vision Term Project <br><br><br><br>
+2022-1, Gachon University, Department of Software, Computer Vision Term Project <br>
+This Project code ranked 1st place in Colorization Challenge competitions in ComputerVision lecture ( From CVIP Lab in Gachon Univ. ).<br>
+<p align="center">
+<img width="1030" alt="image" src="https://user-images.githubusercontent.com/39505929/172374633-0af7f1fc-5d82-4be4-b462-5084fefc48c7.png">
+</p>
+<br>
 
 ## Hint-based Image Colorization
 Hint-based colorization reconstructs complete colorful images by propagating the color hint given by users. For the hint-based colorization task, each solution should first convert the provided RGB image to LAB image. The inputs of the model should be an ”L” image (i.e. grayscale image or intensity image) and a color hint map. The output will be a predicted ”AB” image that will be concatenated with the input L image to produce the final colorized image. An overview is shown below.
