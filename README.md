@@ -68,10 +68,12 @@ Hint-based colorization reconstructs complete colorful images by propagating the
 |Model|PSNR|SSIM|
 |------|---|---|
 |Ours|34.0958|0.9679|
+
 <br>
 
 * Ablation Study
 * It was experimentally confirmed how much the performance of additional components affected
+
 |Model|PSNR|SSIM|
 |------|---|---|
 |Unet|30.9374|0.9647|
